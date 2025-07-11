@@ -41,7 +41,7 @@ public class Usuario {
 	private LocalDate fechaNacimiento;
 	
 	@Enumerated(EnumType.STRING)
-	private Rol rol;
+	private Rol rol; //admin o cliente
 	
 	@OneToOne(optional = true,cascade = CascadeType.ALL,fetch = FetchType.EAGER)
 	private CuentaBancaria cuenta;

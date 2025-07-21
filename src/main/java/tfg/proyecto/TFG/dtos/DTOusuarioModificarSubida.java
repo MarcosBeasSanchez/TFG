@@ -8,7 +8,8 @@ import tfg.proyecto.TFG.modelo.Rol;
 
 @Builder
 @Data
-public class DTOusuarioSubida {
+public class DTOusuarioModificarSubida {
+	private Long id;
 	private String nombre; 
 	private String email;
 	private String password;

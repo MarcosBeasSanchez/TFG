@@ -1,7 +1,5 @@
 package tfg.proyecto.TFG.servicios;
 
-public interface IServicioUsuario {
-	
-	
+public interface IServicioTicket {
 
 }
